@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Math&family=Roboto+Slab:wght@100..900&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Slab", serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom, rgb(219, 47, 47), rgb(199, 199, 199));
+}
+
+
+.back-ban {
+    background: rgb(58, 58, 58);
+    height: 100px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 2px 2px 2px 2px white;
+}
+
+.container-ban {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    max-width: 1140px;
+}
+
+.logo img {
+    width: 7%;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+
+.contact {
+    color: white;
+    display: flex;
+    background: red;
+    width: 100px;
+    border-radius: 10px;
+    justify-content: center;
+    text-decoration: none;
+    padding: 7px 0;
+    transition: 1s;
+}
+
+.contact:hover {
+    text-decoration: underline;
+    transform: scale(1.2);
+}
+
+.menu ul a {
+    margin-left: 2rem;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    width: 100px;
+}
+
+.menu ul a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.container-img {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 8rem;
+}
+
+.img img {
+    border: solid;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.background-content1 {
+    max-width: 1140px;
+    margin: 0 auto;
+    height: 2300px;
+}
+
+.header-con {
+    margin: 2rem 0;
+}
+
+.container-content {
+    height: 250px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.container-content img {
+   width: 250px;
+   border-radius: 10px;
+   box-shadow: 5px 5px 5px 2px;
+}
+
+.container-content h3 {
+    padding-left: 4rem;
+    width: 300px;
+}

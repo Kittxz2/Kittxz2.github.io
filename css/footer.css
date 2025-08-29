@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.back-footer {
+    background-color: rgb(49, 49, 49);
+    height: 200px;
+    margin-top: 50px;
+}
+
+.container-footer {
+    max-width: 1140px;
+    margin: 0 auto;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-icon {
+    padding-top: 2.5rem;
+    width: 200px;
+    height: 126px;
+    color: white;
+}
+
+.contact-icon p {
+    margin-left: 10px;
+}
+
+/* .contact-icon li {
+    display: flex;
+} */
+
+.contact-icon a i {
+    margin: 12px 0px;
+    width: 1.7rem;
+    border: solid white 2.5px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.contact-icon h4 p {
+    width: 300px;
+}
+
+#face {
+    color: rgb(17, 129, 233);
+}
+
+#insta {
+    color: rgb(248, 22, 146);
+}
+
+#twit {
+    color: rgb(17, 129, 233);
+}
+
+#you {
+    color: red;
+}
+
+.email p {
+    font-size: 13px;
+}
+
+.data-school {
+    color: white;
+    padding-top: 2.5rem;
+    width: 200px;
+}
+
+.contact-icon p {
+    width: 300px;
+}
+
+.data-school h4 {
+    padding-bottom: 12px;
+}
+
+.data-school ul {
+    padding-left: 1rem;
+}
+
+.data-school ul li {
+    width: 300px;
+    margin-bottom: 5px;
+}
+
+.about {
+    color: white;
+    padding-top: 2.5rem;
+    width: 200px;
+}
+
+.about ul li {
+    width: 300px;
+}
+
+.about h4 {
+    padding-bottom: 12px;
+}

@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Math&family=Roboto+Slab:wght@100..900&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Slab", serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom, rgb(219, 47, 47), rgb(199, 199, 199));
+}
+
+.back-ban {
+    background: rgb(112, 112, 112);
+    height: 100px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 5px 2px 5px 5px white;
+}
+
+.container-ban {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    max-width: 1140px;
+}
+
+.logo img {
+    width: 7%;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+
+.contact {
+    color: white;
+    display: flex;
+    background: red;
+    width: 100px;
+    border-radius: 10px;
+    justify-content: center;
+    text-decoration: none;
+    padding: 7px 0;
+    transition: 1s;
+}
+
+.contact:hover {
+    text-decoration: underline;
+    transform: scale(1.2);
+}
+
+.menu ul a {
+    margin-left: 2rem;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    width: 100px;
+}
+
+.menu ul a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.back-img {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 10rem;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.back-con {
+    height: 500px;
+}
+
+.container-con {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5rem;
+    position: relative;
+}
+
+.back-list {
+    padding-top: 7rem;
+}
+
+.container-content {
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content {
+    width: 400px;
+}
+
+.content  a {
+    display: inline-block;
+    margin:  1rem 0;
+    color: white;
+    background-color: red;
+    padding: 0.6rem;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.content  a:hover {
+    text-decoration: underline;
+    transform: scale(1.2);
+}
+
+.img-con img {
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.container-list {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+}
+
+.list-img1 {
+    box-shadow: 4px 4px 10px 4px white;
+    padding: 0 10px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+.list-img1:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.list-img1 img {
+    border: solid rgb(255, 31, 31);
+    border-radius: 10px;
+    max-width: 350px;
+    margin-top: 1rem;
+}
+
+.list-img1 h3 {
+    margin: 0.5rem;
+}
+
+.list-img1 p {
+    margin: 0.5rem;
+}
+
+.list-img1 a {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 0.6rem;
+    border-radius: 10px;
+    margin: 0.5rem;
+    text-decoration: none;
+}
+
+.background-center {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.container-center {
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+}
+
+.container-imgcenter {
+    display: flex;
+    flex-direction: column;
+}
+
+.message1 {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+
+#position {
+    font-size: 2rem;
+}
+
+#bank {
+    font-size: 2rem;
+}
+
+#bus {
+    font-size: 2rem;
+}
+
+#BP {
+    font-size: 2rem;
+}
+
+#free {
+    font-size: 2rem;
+}
+
+#file {
+    font-size: 2rem;
+}
+
+.message1 h2 {
+    height: 50px;
+}
+
+.text {
+    text-align: center;
+    margin: 7rem 0;
+}
+
+.text h4 {
+    color: rgb(66, 66, 66);
+    margin-bottom: 2rem;
+}
+
+.back-footer {
+    background-color: rgb(49, 49, 49);
+    height: 150px;
+    margin-top: 50px;
+}
+
+.container-footer {
+    max-width: 1140px;
+    margin: 0 auto;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.email {
+    color: white;
+}
+
+.email h4 {
+    padding-left: 6rem;
+    text-decoration: underline;
+}
+
+.email i {
+    margin: 0.5rem 0;
+    padding-right: 5rem;
+}
+
+#face {
+    color: rgb(17, 129, 233);
+}
+
+#insta {
+    color: rgb(248, 22, 146);
+}
+
+#twit {
+    color: rgb(17, 129, 233);
+}
+
+#you {
+    color: red;
+}
+
+.email p {
+    font-size: 13px;
+}
